@@ -34,8 +34,8 @@ function start() {
   then
    gradle clean
   fi
-  gradle build
-  exec "$JAVACMD" -jar ./build/libs/training-spring-0.0.1-SNAPSHOT.jar
+  gradle build &&
+  exec "$JAVACMD" -jar ./build/libs/hr-management-0.0.1-SNAPSHOT.jar 
 }
 
 function stop() {
