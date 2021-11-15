@@ -1,1 +1,1 @@
-# hr-management
+# training-spring
